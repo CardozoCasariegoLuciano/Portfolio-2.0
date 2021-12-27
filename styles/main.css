@@ -1,0 +1,46 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+header{
+  background-color: rgba(0, 0, 0, .8);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 10px 0px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header a{
+  color: #333;
+  text-decoration: none;
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+div{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div:nth-child(odd){
+  background-color: red;
+}
+
+div:nth-child(even){
+  background-color: green;
+}
