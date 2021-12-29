@@ -4,23 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Luciano Cardozo</title>
-    <link rel="stylesheet" href="./styles/main.css" type="text/css" media="all">
+    <link
+      rel="stylesheet"
+      href="./styles/main.css"
+      type="text/css"
+      media="all"
+    />
   </head>
   <body>
     <header>
-      <nav>
-        <a href="#div1">Home</a>
-        <a href="#div2">About me</a>
-        <a href="#div3">Skills</a>
-        <a href="#div4">Projects</a>
-      </nav>
+      <div class="content">
+        <h2 class="logo">LCC</h2>
+        <nav class="showMenu nav-menu" id="nav-menu">
+          <a id="link-home" href="#home">Home</a>
+          <a id="link-about" href="#about">About me</a>
+          <a id="link-skills" href="#skills">Skills</a>
+          <a id="link-projects" href="#projects">Projects</a>
+        </nav>
+        <img class="btn-menu" id="btn-menu" src="./assets/icons/menu.png" alt="btn-menu">
+      </div>
     </header>
 
     <main>
-      <div id="div1">Home</div>
-      <div id="div2">About me</div>
-      <div id="div3">Skills</div>
-      <div id="div4">Projects</div>
+      <section id="home">
+        <div class="content">Home</div>
+      </section>
+
+      <section id="about">
+        <div class="content">About me</div>
+      </section>
+
+      <section id="skills">
+        <div class="content">Skills</div>
+      </section>
+
+      <section id="projects">
+        <div class="content">Projects</div>
+      </section>
     </main>
+
+    <script src="./javaScript/main.js"></script>
   </body>
 </html>

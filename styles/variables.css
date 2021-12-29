@@ -1,0 +1,8 @@
+:root{
+  --header-height: 60px;
+  --header-bg-color: rgba(0, 0, 0, 0.8);
+
+  --logo-color: grey;
+
+  --menu-links-bg-color:  #d8c1ff;
+}

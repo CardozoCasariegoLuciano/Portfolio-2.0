@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Ubuntu:wght@300&display=swap");
+@import url(./variables.css);
+@import url(./header.css);
+
 *{
   margin: 0px;
   padding: 0px;
@@ -8,39 +12,30 @@ html{
   scroll-behavior: smooth;
 }
 
-header{
-  background-color: rgba(0, 0, 0, .8);
-  width: 100%;
-  position: fixed;
-  top: 0;
-  padding: 10px 0px;
+body{
+  font-family: "Ubuntu", sans-serif;
 }
 
-nav{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
 
-header a{
-  color: #333;
-  text-decoration: none;
-  background-color: yellow;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-div{
+section{
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-div:nth-child(odd){
-  background-color: red;
+section:nth-child(odd){
+  background-color:#f3eae8;
 }
 
-div:nth-child(even){
-  background-color: green;
+section:nth-child(even){
+  background-color: #d7fff7;
+}
+
+/*----- Medias -----*/
+@media (min-width: 1300px){
+  .content{
+    width: 60%;
+    margin: auto;
+  }
 }
