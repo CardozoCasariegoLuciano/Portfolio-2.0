@@ -2,42 +2,42 @@
 @import url(./variables.css);
 @import url(./header.css);
 @import url(./home.css);
+@import url(./about.css);
+@import url(./skills.css);
+@import url(./projects.css);
 
-
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   font-family: "Ubuntu", sans-serif;
 }
 
-
-section{
+section {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-section:nth-child(odd){
-  background-color:#f3eae8;
+section:nth-child(odd) {
+  background-color: #f3eae8;
 }
 
-section:nth-child(even){
+section:nth-child(even) {
   background-color: #d7fff7;
 }
 
-
 /*----- Medias -----*/
-@media (min-width: 1300px){
-  .content{
+@media (min-width: 1300px) {
+  .content {
     width: 60%;
     margin: 0px auto;
   }

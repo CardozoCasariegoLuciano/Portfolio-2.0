@@ -1,0 +1,41 @@
+.skills {
+  text-align: center;
+}
+
+.skills h3 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.skills p {
+  font-size: 1.3rem;
+}
+
+.skills_grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+.skills_icon {
+  justify-self: center;
+  width: 60px;
+  height: 60px;
+}
+
+@media (min-width: 800px) {
+  .skills .content {
+    width: auto;
+  }
+
+  .skills_grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+  }
+
+  .skills_icon {
+    width: 80px;
+    height: 80px;
+  }
+}
