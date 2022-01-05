@@ -5,6 +5,7 @@
 @import url(./about.css);
 @import url(./skills.css);
 @import url(./projects.css);
+@import url(./footer.css);
 
 * {
   margin: 0px;
@@ -32,7 +33,9 @@ section:nth-child(odd) {
 }
 
 section:nth-child(even) {
-  background-color: #d7fff7;
+  /*background-color: #d7fff7;*/
+  background-color: rgba(0, 0, 0, .7);
+  color: #eee;
 }
 
 /*----- Medias -----*/

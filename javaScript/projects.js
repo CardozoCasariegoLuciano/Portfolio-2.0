@@ -19,28 +19,12 @@ const projectsList = [
     techs: [HTML, CSS, JS]
   },
   {
-    image: "./assets/captures/Weather.png",
-    title: "Weather app",
-    description: "A simple app created using vanilla technologies <br/><br/> API: Open-weather",
-    github: "https://github.com/CardozoCasariegoLuciano/Open-weather",
-    url: "http://lucianocardozocasariego.com.ar/weather/",
-    techs: [HTML, CSS, JS]
-  },
-  {
-    image: "./assets/captures/Weather.png",
-    title: "Weather app",
-    description: "A simple app created using vanilla technologies <br/><br/> API: Open-weather",
-    github: "https://github.com/CardozoCasariegoLuciano/Open-weather",
-    url: "http://lucianocardozocasariego.com.ar/weather/",
-    techs: [HTML, CSS, JS]
-  },
-  {
-    image: "./assets/captures/Weather.png",
-    title: "Weather app",
-    description: "A simple app created using vanilla technologies <br/><br/> API: Open-weather",
-    github: "https://github.com/CardozoCasariegoLuciano/Open-weather",
-    url: "http://lucianocardozocasariego.com.ar/weather/",
-    techs: [HTML, CSS, JS]
+    image: "./assets/captures/generala.png",
+    title: "Generala game",
+    description: "Generala game created for a university project",
+    github: "https://github.com/CardozoCasariegoLuciano/Generala_React",
+    url: "http://lucianocardozocasariego.com.ar/generala/",
+    techs: [REACT]
   },
 ];
 
