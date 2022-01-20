@@ -34,34 +34,34 @@ const generateIcons = (techs) => {
   techs.forEach((tech) => {
     switch (tech) {
       case 'REACT':
-        return icons+=`<img class="card_techUsed card_react_icon" src="./assets/icons/react.png" alt="react icon"/>`
+        return icons+=`<img class="card_techUsed card_react_icon" src="./assets/icons/react.svg" alt="react icon"/>`
 
       case 'HTML':
-        return icons+=`<img class="card_techUsed" src="./assets/icons/html.png" alt="html icon"/>`
+        return icons+=`<img class="card_techUsed" src="./assets/icons/html.svg" alt="html icon"/>`
 
       case 'CSS':
-        return icons+=`<img class="card_techUsed" src="./assets/icons/css.png" alt="css icon"/>`
+        return icons+=`<img class="card_techUsed" src="./assets/icons/css.svg" alt="css icon"/>`
 
       case 'JS':
-        return icons+=`<img class="card_techUsed" src="./assets/icons/javascript.png" alt="JavaScript icon"/>`
+        return icons+=`<img class="card_techUsed" src="./assets/icons/javascript.svg" alt="JavaScript icon"/>`
 
       case 'MONGODB':
-        return icons+=`<img class="card_techUsed" src="./assets/icons/mongodb.png" alt="MongoDB icon"/>`
+        return icons+=`<img class="card_techUsed" src="./assets/icons/mongodb.svg" alt="MongoDB icon"/>`
 
       case 'MYSQL':
-        return icons+=`<img class="card_techUsed" src="./assets/icons/mysql.png" alt="MySQL icon"/>`
+        return icons+=`<img class="card_techUsed" src="./assets/icons/mysql.svg" alt="MySQL icon"/>`
 
       case 'NODE':
-        return icons+=`<img class="card_techUsed" src="./assets/icons/nodejs.png" alt="Node icon"/>`
+        return icons+=`<img class="card_techUsed" src="./assets/icons/nodejs.svg" alt="Node icon"/>`
 
       case 'JEST':
-        return icons+=`<img class="card_techUsed" src="./assets/icons/jest.png" alt="Jest icon"/>`
+        return icons+=`<img class="card_techUsed" src="./assets/icons/jest.svg" alt="Jest icon"/>`
 
       case 'REDUX':
-        return icons+=`<img class="card_techUsed" src="./assets/icons/redux.png" alt="Redux icon"/>`
+        return icons+=`<img class="card_techUsed" src="./assets/icons/redux.svg" alt="Redux icon"/>`
 
       case 'TS':
-        return icons+=`<img class="card_techUsed" src="./assets/icons/typescript.png" alt="TypeScript icon"/>`
+        return icons+=`<img class="card_techUsed" src="./assets/icons/typescript.svg" alt="TypeScript icon"/>`
       
       default:
         return ``
