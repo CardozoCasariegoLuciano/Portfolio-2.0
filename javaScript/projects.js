@@ -84,11 +84,11 @@ projectsList.forEach((prj) => {
               `</div>` +
               `<div class="card_linksSections">` +
                 `<a class="card_github" href=${prj.github} target="_blank">` + 
-                    `<img src="./assets/icons/github.png" alt="view code on github"/>` +
+                      `View code` +
                 `</a>` +
                 `<a class="card_view" href=${prj.url} target="_blank">` +
-                      `<img src="./assets/icons/eye.png" alt="view project">` + 
-                `</a>` +
+                      `Visit project` + 
+                  `</a>` +
               `</div>` +
             `</div>` +
       `</div>`
