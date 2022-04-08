@@ -8,6 +8,7 @@ const NODE= "NODE"
 const JEST= "JEST"
 const REDUX= "REDUX"
 const TS = "TS"
+const SASS = "SASS"
 
 const projectsList = [
   {
@@ -24,7 +25,29 @@ const projectsList = [
     description: "Generala game created for a university project",
     github: "https://github.com/CardozoCasariegoLuciano/Generala_React",
     url: "http://lucianocardozocasariego.com.ar/generala/",
-    techs: [REACT]
+    techs: [REACT, SASS]
+  },
+  {
+    image: "./assets/captures/giffy.png",
+    title: "Giffy",
+    description: "An App to search and view gifs",
+    github: "https://github.com/CardozoCasariegoLuciano/giffy-react",
+    url: "http://lucianocardozocasariego.com.ar/giffy/",
+    techs: [REACT, CSS]
+  },
+  {
+    image: "./assets/captures/api.jpg",
+    title: "Video Games store API",
+    description: "An app to show a video game store",
+    github: "https://github.com/CardozoCasariegoLuciano/VideoGamesApp_Backend",
+    techs: [NODE, MONGO, JEST]
+  },
+  {
+    image: "./assets/captures/MoviesApp.png",
+    title: "Movies App",
+    description: "An app to see and add Movies descriptions",
+    github: "https://github.com/CardozoCasariegoLuciano/MovieApp_Node_React_Mysql",
+    techs: [NODE, MYSQL, REACT]
   },
 ];
 
@@ -62,6 +85,9 @@ const generateIcons = (techs) => {
 
       case 'TS':
         return icons+=`<img class="card_techUsed" src="./assets/icons/typescript.svg" alt="TypeScript icon"/>`
+
+ 			case 'SASS':
+        return icons+=`<img class="card_techUsed" src="./assets/icons/sass.svg" alt="TypeScript icon"/>`
       
       default:
         return ``
@@ -86,9 +112,7 @@ projectsList.forEach((prj) => {
                 `<a class="card_github" href=${prj.github} target="_blank">` + 
                       `View code` +
                 `</a>` +
-                `<a class="card_view" href=${prj.url} target="_blank">` +
-                      `Visit project` + 
-                  `</a>` +
+                  `${prj.url ? `<a class="card_view" href=${prj.url} target="_blank"> Visit project </a>`: ""}` +
               `</div>` +
             `</div>` +
       `</div>`

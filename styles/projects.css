@@ -31,6 +31,7 @@
 .card_content {
   background-color: #eee;
   border-radius: 0px 0px 10px 10px;
+	min-width: 400px;
 }
 
 .card_title {
