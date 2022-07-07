@@ -12,12 +12,26 @@ const SASS = "SASS"
 
 const projectsList = [
   {
-    image: "./assets/captures/Weather.png",
-    title: "Weather app",
-    description: "A simple app created using vanilla technologies <br/><br/> API: Open-weather",
-    github: "https://github.com/CardozoCasariegoLuciano/Open-weather",
-    url: "http://lucianocardozocasariego.com.ar/weather/",
-    techs: [HTML, CSS, JS]
+    image: "./assets/captures/giffy.png",
+    title: "Giffy",
+    description: "An App to search and view gifs <br/><br/> API: GIPHY",
+    github: "https://github.com/CardozoCasariegoLuciano/giffy-react",
+    url: "http://lucianocardozocasariego.com.ar/giffy/",
+    techs: [REACT, CSS]
+  },
+  {
+    image: "./assets/captures/api.jpg",
+    title: "Video Games store API",
+    description: "An API to show the stock of videogames of a game store",
+    github: "https://github.com/CardozoCasariegoLuciano/VideoGamesApp_Backend",
+    techs: [NODE, MONGO, JEST]
+  },
+  {
+    image: "./assets/captures/MoviesApp.png",
+    title: "Movies App",
+    description: "An App to see, add and import Movies descriptions",
+    github: "https://github.com/CardozoCasariegoLuciano/MovieApp_Node_React_Mysql",
+    techs: [NODE, MYSQL, REACT]
   },
   {
     image: "./assets/captures/generala.png",
@@ -28,26 +42,12 @@ const projectsList = [
     techs: [REACT, SASS]
   },
   {
-    image: "./assets/captures/giffy.png",
-    title: "Giffy",
-    description: "An App to search and view gifs",
-    github: "https://github.com/CardozoCasariegoLuciano/giffy-react",
-    url: "http://lucianocardozocasariego.com.ar/giffy/",
-    techs: [REACT, CSS]
-  },
-  {
-    image: "./assets/captures/api.jpg",
-    title: "Video Games store API",
-    description: "An app to show a video game store",
-    github: "https://github.com/CardozoCasariegoLuciano/VideoGamesApp_Backend",
-    techs: [NODE, MONGO, JEST]
-  },
-  {
-    image: "./assets/captures/MoviesApp.png",
-    title: "Movies App",
-    description: "An app to see and add Movies descriptions",
-    github: "https://github.com/CardozoCasariegoLuciano/MovieApp_Node_React_Mysql",
-    techs: [NODE, MYSQL, REACT]
+    image: "./assets/captures/Weather.png",
+    title: "Weather app",
+    description: "A simple app created using vanilla technologies <br/><br/> API: Open-weather",
+    github: "https://github.com/CardozoCasariegoLuciano/Open-weather",
+    url: "http://lucianocardozocasariego.com.ar/weather/",
+    techs: [HTML, CSS, JS]
   },
 ];
 

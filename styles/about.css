@@ -1,18 +1,32 @@
-.about{
-  text-align: center;
-}
+.about {
+  text-align: left;
+  grid-template-columns: 1fr;}
 
-.about .content{
+.about .content {
   width: 80%;
-  margin:auto;
+  margin: auto;
 }
 
-.about h3{
+.about h3 {
+  text-align: center;
   font-size: 2.2rem;
   margin-bottom: 40px;
 }
 
-.about p{
-  font-size:1.3rem;
+.about p {
+  font-size: 1.3rem;
   margin-bottom: 15px;
+}
+
+.about_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+@media (max-width: 900px) {
+  .about_grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
 }
